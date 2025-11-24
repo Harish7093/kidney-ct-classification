@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+.venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Model checkpoints / large artifacts (uncomment if you want to ignore)
+# *.h5
+# *.ckpt
+# *.pt
+# *.keras
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Windows
+Thumbs.db
+
+# Ignore Python Egg-cache
+.eggs/
+
+# Added by assistant: test_images can be large; keep it tracked unless you want it ignored
+# test_images/
